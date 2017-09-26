@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Preparation') {
       steps {
-        sh 'echo tmp_dir'
+        sh 'echo "Hi"'
       }
     }
   }
